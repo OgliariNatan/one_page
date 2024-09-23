@@ -5,5 +5,5 @@ Site de uma página.
 
 ### Validador W3C
 
-[CSS](https://jigsaw.w3.org/css-validator/)
+[CSS](https://jigsaw.w3.org/css-validator/)  <br>
 [HTML](https://validator.w3.org/)
