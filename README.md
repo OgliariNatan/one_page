@@ -7,3 +7,6 @@ Site de uma página.
 
 [CSS](https://jigsaw.w3.org/css-validator/)  <br>
 [HTML](https://validator.w3.org/)
+
+
+[aula 10](https://www.youtube.com/watch?v=fEqZBoy10Ic&list=PLbEOwbQR9lqySIIlPJ-Qwo4f4HSuXVeWk&index=10)
