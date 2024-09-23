@@ -3,7 +3,32 @@
     @author OgliariNatan
 */
 
-body{
-    background-color: #8197e3;
 
+/* Smartphone Portrait >>>>>>>>>>>>>>>>>>>> */
+
+/* Smartphone Landscape >>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 576px){ /* se a tela for deste tamanho irá estilizar por aqui*/
+    body{
+        background-color: #8197e3;
+    }
+}
+
+/* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 768px){ /* se a tela for deste tamanho irá estilizar por aqui*/
+    body{
+        background-color: #5154c4;
+    }
+}
+/* Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 992px){ /* se a tela for deste tamanho irá estilizar por aqui*/
+    body{
+        background-color: #999bdd;
+    }
+}
+/* Computador pessoal>>>>>>>>>>>>>>>>>>>>>> */
+
+@media (min-width: 1200px){ /* se a tela for deste tamanho irá estilizar por aqui*/
+    body{
+        background-color: #d16190;
+    }
 }
