@@ -3,6 +3,12 @@
     @author OgliariNatan
 */
 
+/* CSS RESET, remove todas as bordas e margens que os navegadores aplicam por definição */
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
 
 /* Smartphone Portrait >>>>>>>>>>>>>>>>>>>> */
 
