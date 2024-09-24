@@ -55,8 +55,8 @@ header {
     height: 60px;
 }
 #logo img {
-    width: 128px;
-    height: 128px;
+    width: 50px;
+    height: 63px;
 }
 
 
@@ -103,5 +103,14 @@ header {
     /* Layout */
     .Container {
         max-width: 1140px;
+    }
+    /* Cabeçalho */
+    header {
+        height: 120px;
+    }
+    #logo img {
+        width: 100px;
+        height: 126px;
+        margin-top: 5px;
     }
 }
