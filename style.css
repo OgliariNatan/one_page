@@ -6,7 +6,7 @@
 /* Importação de Fontes (Google fonts) */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-body{
+body {
     font-family: "Open Sans", sans-serif;
     font-size: 1em;
 }
@@ -19,50 +19,63 @@ body{
 }
 
 /* LAYOUT */
-.Container{
+.Container {
     margin: 0 auto;
 }
 /* Smartphone Portrait >>>>>>>>>>>>>>>>>>>> */
 
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>> */
-@media (min-width: 576px){ /* se a tela for deste tamanho irá estilizar por aqui*/
-    body{
+@media (min-width: 576px) { /* se a tela for deste tamanho irá estilizar por aqui*/
+    body {
         background-color: #8197e3;
     }
     /* Layout */
-    .Container{
+    .Container {
         max-width: 540px;
     }
 }
 
 /* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>> */
-@media (min-width: 768px){ /* se a tela for deste tamanho irá estilizar por aqui*/
-    body{
+@media (min-width: 768px) { /* se a tela for deste tamanho irá estilizar por aqui*/
+    body {
         background-color: #5154c4;
     }
     /* Layout */
-    .Container{
+    .Container {
         max-width: 720px;
     }
 }
+
+/* Topo do site */
+#topo {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+
+
+
+
+
 /* Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>> */
-@media (min-width: 992px){ /* se a tela for deste tamanho irá estilizar por aqui*/
-    body{
+@media (min-width: 992px) { /* se a tela for deste tamanho irá estilizar por aqui*/
+    body {
         background-color: #999bdd;
     }
     /* Layout */
-    .Container{
+    .Container {
         max-width: 960px;
     }
 }
 /* Computador pessoal>>>>>>>>>>>>>>>>>>>>>> */
 
-@media (min-width: 1200px){ /* se a tela for deste tamanho irá estilizar por aqui*/
-    body{
+@media (min-width: 1200px) { /* se a tela for deste tamanho irá estilizar por aqui*/
+    body {
         background-color: #d16190;
     }
     /* Layout */
-    .Container{
+    .Container {
         max-width: 1140px;
     }
 }
