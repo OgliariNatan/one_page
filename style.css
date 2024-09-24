@@ -22,7 +22,43 @@ body {
 .Container {
     margin: 0 auto;
 }
+
+/* Ajusta cabeçalho, display flexivel */
+.Flex {
+    display: flex;
+    justify-content: space-between;
+    background-color: #a9a9a9;
+}
+
+/* Topo do site */
+#topo {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Smartphone Portrait >>>>>>>>>>>>>>>>>>>> */
+/* Cabeçalho */
+header {
+    height: 60px;
+}
+#logo img {
+    width: 128px;
+    height: 128px;
+}
+
 
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 576px) { /* se a tela for deste tamanho irá estilizar por aqui*/
@@ -45,16 +81,6 @@ body {
         max-width: 720px;
     }
 }
-
-/* Topo do site */
-#topo {
-    position: fixed;
-    right: 10px;
-    bottom: 10px;
-}
-
-
-
 
 
 
