@@ -19,12 +19,20 @@ body{
     font-size: 1em;
 }
 
+/* LAYOUT */
+.Container{
+    margin: 0 auto;
+}
 /* Smartphone Portrait >>>>>>>>>>>>>>>>>>>> */
 
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 576px){ /* se a tela for deste tamanho irá estilizar por aqui*/
     body{
         background-color: #8197e3;
+    }
+    /* Layout */
+    .Container{
+        max-width: 540px;
     }
 }
 
@@ -33,11 +41,19 @@ body{
     body{
         background-color: #5154c4;
     }
+    /* Layout */
+    .Container{
+        max-width: 720px;
+    }
 }
 /* Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 992px){ /* se a tela for deste tamanho irá estilizar por aqui*/
     body{
         background-color: #999bdd;
+    }
+    /* Layout */
+    .Container{
+        max-width: 960px;
     }
 }
 /* Computador pessoal>>>>>>>>>>>>>>>>>>>>>> */
@@ -45,5 +61,9 @@ body{
 @media (min-width: 1200px){ /* se a tela for deste tamanho irá estilizar por aqui*/
     body{
         background-color: #d16190;
+    }
+    /* Layout */
+    .Container{
+        max-width: 1140px;
     }
 }
