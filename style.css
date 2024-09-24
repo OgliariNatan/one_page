@@ -3,20 +3,19 @@
     @author OgliariNatan
 */
 
-/* CSS RESET, remove todas as bordas e margens que os navegadores aplicam por definição */
-*{
-    margin: 0;
-    border: 0;
-    padding: 0;
-}
-
-
 /* Importação de Fontes (Google fonts) */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 body{
     font-family: "Open Sans", sans-serif;
     font-size: 1em;
+}
+
+/* CSS RESET, remove todas as bordas e margens que os navegadores aplicam por definição */
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
 }
 
 /* LAYOUT */
