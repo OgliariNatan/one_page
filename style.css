@@ -27,7 +27,7 @@ body {
 .Flex {
     display: flex;
     justify-content: space-between;
-    background-color: #a9a9a9;
+    
 }
 
 /* Topo do site */
@@ -38,16 +38,32 @@ body {
 }
 
 
+nav ul { /* Para ajustar ao tamanho da tela o menu */
+    list-style: none;
+    background-color: #343538;
+    height: 100vh; /* Ajusta o menu ao tamanho total da tela */
+    position: fixed;
+    top: 68px;
+    right: -100%;
+    width: 100%;
+    transition: all 0.5s;
+} 
 
+/* Esconde menu */
 
+#check:checked ~ ul {
+    right: 0;
+}
 
+nav ul li {
+    padding: 20px;
+    border-bottom: 1px solid #a9a9a9;
+}
 
-
-
-
-
-
-
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
 
 /* Smartphone Portrait >>>>>>>>>>>>>>>>>>>> */
 /* Cabeçalho */
@@ -59,12 +75,18 @@ header {
     height: 63px;
 }
 
+#check{
+    display: none;
+}
+
+label {
+    font-size: 3em;
+    padding-right: 15px;
+}
 
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 576px) { /* se a tela for deste tamanho irá estilizar por aqui*/
-    body {
-        background-color: #8197e3;
-    }
+    
     /* Layout */
     .Container {
         max-width: 540px;
@@ -73,9 +95,7 @@ header {
 
 /* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 768px) { /* se a tela for deste tamanho irá estilizar por aqui*/
-    body {
-        background-color: #5154c4;
-    }
+   
     /* Layout */
     .Container {
         max-width: 720px;
@@ -86,9 +106,7 @@ header {
 
 /* Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 992px) { /* se a tela for deste tamanho irá estilizar por aqui*/
-    body {
-        background-color: #999bdd;
-    }
+    
     /* Layout */
     .Container {
         max-width: 960px;
@@ -97,9 +115,7 @@ header {
 /* Computador pessoal>>>>>>>>>>>>>>>>>>>>>> */
 
 @media (min-width: 1200px) { /* se a tela for deste tamanho irá estilizar por aqui*/
-    body {
-        background-color: #d16190;
-    }
+    
     /* Layout */
     .Container {
         max-width: 1140px;
@@ -112,5 +128,30 @@ header {
         width: 100px;
         height: 126px;
         margin-top: 5px;
+    }
+
+    label {
+        display: none;
+    }
+
+    nav ul {
+        position: static;
+        height: auto;
+        background-color: transparent;
+        margin-top: 40px;
+    }
+
+    nav ul li {
+        float: left;
+        border: 0;
+        
+    }
+    
+    nav ul li a {
+        color: #343538
+    }
+
+    nav ul li a:hover { /* Ao posicionar o mause em cima */
+        color: #227da1;
     }
 }
