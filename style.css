@@ -45,6 +45,11 @@ body {
     align-items: center;
 }
 
+.Flex3 {
+    display: flex;
+    flex-direction: column;
+}
+
 /* Topo do site */
 #topo {
     position: fixed;
@@ -153,6 +158,23 @@ main h2 {
     margin-right: 20px;
 }
 
+/* Projetos */
+#projetos {
+    padding: 50px 10px;
+}
+
+#projetos h2 {
+    margin-bottom: 10px;
+}
+#projetos p {
+    margin-bottom: 25px;
+}
+
+#video iframe {
+    width: 340px;
+    height: 191px;
+    border: 0;
+}
 
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 576px) { /* se a tela for deste tamanho irá estilizar por aqui*/
@@ -164,6 +186,11 @@ main h2 {
     /* Destaque fundo */
     main h1, main h2 {
         text-shadow: #000 0.05em 0.05em 0.05em;
+    }
+    /* Projetos */
+    #video iframe {
+        width: 560px;
+        height: 315px;
     }
 }
 
@@ -255,5 +282,9 @@ main h2 {
         border-radius: 50%;
         margin-right: 50px;
     }
-
+    /* Projetos */
+    .Flex3 {
+        flex-direction: row;
+        align-items: center;
+    }
 }
