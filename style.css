@@ -103,6 +103,7 @@ main {
     height: 75vh;/* Equivave a 75% da tela independe do dispositivo */
     background: url(img/cavalo.jpg);
     background-size: cover;
+    background-position: center;
     /* color: #343538; */
     display: flex;
     flex-direction: column;
@@ -124,6 +125,7 @@ main h2 {
     padding: 50px 0px;
     background: url(img/logo.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 .destaqueSobre {
@@ -142,7 +144,7 @@ main h2 {
 
 .TopicosSobre {
     margin-top: 20px;
-    font-size: 5em;
+    /* font-size: 5em; */
 }
 .TopicosSobre img {
     margin-right: 20px;
@@ -237,4 +239,18 @@ main h2 {
     nav ul li a:hover { /* Ao posicionar o mause em cima */
         color: #227da1;
     }
+
+    /* Sobre */
+    #sobre {
+        background-attachment: fixed;
+    }
+    .destaqueSobre {
+        display: inline;
+    }
+
+    .TopicosSobre img {
+        border-radius: 50%;
+        margin-right: 50px;
+    }
+
 }
