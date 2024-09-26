@@ -11,4 +11,4 @@ Site de uma página.
 [Redimencionador de imagens](https://imagecompressor.com/pt/)<br>
 
 
-[aula 21](https://www.youtube.com/watch?v=lCz_Snbqd1M&list=PLbEOwbQR9lqySIIlPJ-Qwo4f4HSuXVeWk&index=21)
+[aula 25](https://www.youtube.com/watch?v=Tlz0JW6BQC4&list=PLbEOwbQR9lqySIIlPJ-Qwo4f4HSuXVeWk&index=25)
