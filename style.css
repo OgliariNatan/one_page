@@ -85,6 +85,40 @@ nav ul li a {
     color: #fff;
 }
 
+
+/* repositorio */
+
+.Card {
+    margin-top: 25px;
+    width: 305px;
+    height: 520px;
+    background-color: #e8e8e8;
+    border: 1px solid #a1a1a1;
+    border-radius: 25px;
+    text-align: center;
+
+}
+
+.Card img {
+    border-radius: 25px 25px 0px 0px;
+}
+
+.Card h3 {
+    margin-top: 15px;
+}
+
+.Card p {
+    text-align: left;
+    color: #434343;
+    padding: 10px 30px 50px 30px;
+}
+
+.Card a {
+    padding: 10px 100px;
+    border: 0;
+}
+
+
 /* Smartphone Portrait >>>>>>>>>>>>>>>>>>>> */
 /* Cabeçalho */
 header {
@@ -210,6 +244,28 @@ main h2 {
 #qrcode {
     display: none;
 }
+/* Repositorio do github */
+#repositorio {
+    padding: 50px 0px;
+}
+
+#repositorio h2 {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#todos {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#todos a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 1.25em;
+}
+
 
 
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>> */
