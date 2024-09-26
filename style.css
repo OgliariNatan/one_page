@@ -161,9 +161,9 @@ main h2 {
 /* Projetos */
 #projetos {
     padding: 50px 10px;
-    background: url(img/logo.jpg);
-    background-size: cover;
-    background-position: center;
+    /* background: url(img/logo.jpg); */
+    /* background-size: cover; */
+    /* background-position: center; */
 }
 
 #projetos h2 {
@@ -325,6 +325,9 @@ main h2 {
     }
 
     /* Formação */
+    #textoformacao {
+        background-attachment: fixed;
+    }
 
     #textoformacao span {
         display: inline;
@@ -332,5 +335,9 @@ main h2 {
 
     #qrcode {
         display: inline;
+    }
+    #qrcode img {
+        width: 150px;
+        height: 150px;
     }
 }
