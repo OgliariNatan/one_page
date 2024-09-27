@@ -65,6 +65,7 @@ body {
 
 .Flex6 {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
 }
 
@@ -155,7 +156,10 @@ address img {
 }
 
 /* Rodapé */
-
+#copyright a {
+    text-decoration: none;
+    color: #fff;
+}
 
 /* Smartphone Portrait >>>>>>>>>>>>>>>>>>>> */
 /* Cabeçalho */
@@ -502,5 +506,9 @@ footer {
 
     #googleMaps {
         display: inline;
+    }
+
+    .Flex6 {
+        flex-direction: row-reverse;
     }
 }
