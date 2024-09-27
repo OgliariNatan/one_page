@@ -18,6 +18,11 @@ body {
     padding: 0;
 }
 
+/* Rolagem dinamica entre as seções  */
+html {
+    scroll-behavior: smooth;
+}
+
 /* LAYOUT */
 .Container {
     margin: 0 auto;
