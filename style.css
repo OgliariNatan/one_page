@@ -57,6 +57,18 @@ body {
     justify-content: space-evenly;
 }
 
+.Flex5 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+.Flex6 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
 /* Topo do site */
 #topo {
     position: fixed;
@@ -328,6 +340,17 @@ main h2 {
     display: none;
 }
 
+footer {
+    padding: 50px;
+    background-color: #343538;
+    color: #fff;
+    text-align: center;
+}
+
+#social {
+    padding-bottom: 25px;
+}
+
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 576px) { /* se a tela for deste tamanho irá estilizar por aqui*/
     
@@ -343,6 +366,18 @@ main h2 {
     #video iframe {
         width: 560px;
         height: 315px;
+    }
+
+    /* Rodapé */
+
+    .Flex5 {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #social {
+        margin: 0;
     }
 }
 
@@ -460,6 +495,9 @@ main h2 {
     /* Rodapé */
     #iconeLocal {
         display: inline;
+    }
+    #iconeMapa {
+        display: none;
     }
 
     #googleMaps {
