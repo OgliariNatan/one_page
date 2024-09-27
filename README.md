@@ -10,5 +10,7 @@ Site de uma página.
 
 [Redimencionador de imagens](https://imagecompressor.com/pt/)<br>
 
+[Diminui imagens](https://www.iloveimg.com/pt/redimensionar-imagem#resize-options,pixels) <br>
+
 
 [aula 25](https://www.youtube.com/watch?v=Tlz0JW6BQC4&list=PLbEOwbQR9lqySIIlPJ-Qwo4f4HSuXVeWk&index=25)
