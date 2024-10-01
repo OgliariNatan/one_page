@@ -276,6 +276,11 @@ main h2 {
     padding: 0px 10px;
 }
 
+#textoformacao h1 {
+    font-size: 3em;
+    text-align: left;
+}
+
 #textoformacao h2 {
     margin-bottom: 10px;
 }
@@ -485,7 +490,7 @@ footer {
     }
 
     /* Formação */
-    #textoformacao {
+    #formacao {
         background-attachment: fixed;
     }
 
