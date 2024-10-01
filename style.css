@@ -49,9 +49,10 @@ html {
 .Flex2 {
     display: flex;
     align-items: center;
+    
 }
 
-.Flex3 {
+.Flex3, .Flex7 {
     display: flex;
     flex-direction: column;
 }
@@ -73,6 +74,7 @@ html {
     flex-direction: column;
     justify-content: space-around;
 }
+
 
 
 /* Topo do site */
@@ -169,7 +171,8 @@ address img {
 /* Smartphone Portrait >>>>>>>>>>>>>>>>>>>> */
 /* Cabeçalho */
 header {
-    height: 60px;
+    height: 80px;
+    background-color: #d6d2d2;
 }
 #logo img {
     width: 80px;
@@ -190,7 +193,7 @@ label {
 /* Destaque */
 main {
     height: 75vh;/* Equivave a 75% da tela independe do dispositivo */
-    background: url(img/cavalo.jpg);
+    background: url(img/logo.jpg);
     background-size: cover;
     background-position: center;
     /* color: #343538; */
@@ -198,10 +201,12 @@ main {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    
 }
 
 main h1 {
     font-size: 2.5em;
+    margin-top: 50px;
 }
 
 main h2 {
@@ -218,12 +223,12 @@ main h2 {
 }
 
 .destaqueSobre {
-    display: none; /* Remove da tela o identificador */
+    display: none; /* Remove da tela o identificador  o desenho do git*/
 }
 
 #textoSobre {
     color: #000;
-    padding: 0px 10px;
+    padding: 10px 10px;
 }
 
 #textoSobre h2 {
@@ -279,14 +284,18 @@ main h2 {
 #textoformacao h1 {
     font-size: 3em;
     text-align: left;
-}
-
-#textoformacao h2 {
     margin-bottom: 10px;
 }
 
+#textoformacao h2 {
+    /* margin-bottom: 10px; */
+    margin: 10px 10px 10px 10px;
+    /* text-align: center; */
+    
+}
+
 #textoformacao p {
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 #textoformacao span {
@@ -439,11 +448,16 @@ footer {
     /* Cabeçalho */
     header {
         height: 120px;
+        background-color: #d6d2d2;
     }
     #logo img {
         width: 115px;
         height: 115px;
         margin-top: 5px;
+    }
+
+    main {
+        background-attachment: fixed;
     }
 
     label {
